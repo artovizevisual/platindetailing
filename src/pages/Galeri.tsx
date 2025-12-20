@@ -24,6 +24,15 @@ import porschePanamera from "@/assets/gallery/porsche-panamera.jpg";
 import bmwM2GoldWheels from "@/assets/gallery/bmw-m2-gold-wheels.jpg";
 import cupraTravascan from "@/assets/gallery/cupra-tavascan.jpg";
 import bmwM3Red from "@/assets/gallery/bmw-m3-red.jpg";
+import mercedesGtBlack from "@/assets/gallery/mercedes-gt-black.jpg";
+import bmwX5White from "@/assets/gallery/bmw-x5-white.jpg";
+import volvoS60Red from "@/assets/gallery/volvo-s60-red.jpg";
+import bmw5Brown from "@/assets/gallery/bmw-5-brown.jpg";
+import audiA6Black from "@/assets/gallery/audi-a6-black.jpg";
+import porscheCayenneWhite from "@/assets/gallery/porsche-cayenne-white.jpg";
+import bmwM4MatteGrey from "@/assets/gallery/bmw-m4-matte-grey.jpg";
+import electricCarGrey from "@/assets/gallery/electric-car-grey.jpg";
+import maybachTwotone from "@/assets/gallery/maybach-twotone.jpg";
 
 const categories = [
   { id: "all", label: "Tümü" },
@@ -50,6 +59,15 @@ const galleryItems = [
   { id: 15, category: "ppf", src: bmwM2GoldWheels, alt: "BMW M2 Altın Jant PPF" },
   { id: 16, category: "seramik", src: cupraTravascan, alt: "Cupra Tavascan Seramik" },
   { id: 17, category: "ppf", src: bmwM3Red, alt: "BMW M3 Kırmızı PPF" },
+  { id: 18, category: "seramik", src: mercedesGtBlack, alt: "Mercedes GT Seramik Kaplama" },
+  { id: 19, category: "ppf", src: bmwX5White, alt: "BMW X5 Beyaz PPF" },
+  { id: 20, category: "pasta", src: volvoS60Red, alt: "Volvo S60 Pasta Cila" },
+  { id: 21, category: "seramik", src: bmw5Brown, alt: "BMW 5 Serisi Seramik Kaplama" },
+  { id: 22, category: "ppf", src: audiA6Black, alt: "Audi A6 PPF Koruma" },
+  { id: 23, category: "seramik", src: porscheCayenneWhite, alt: "Porsche Cayenne Seramik" },
+  { id: 24, category: "ppf", src: bmwM4MatteGrey, alt: "BMW M4 Mat Gri PPF" },
+  { id: 25, category: "seramik", src: electricCarGrey, alt: "Elektrikli Araç Seramik Kaplama" },
+  { id: 26, category: "pasta", src: maybachTwotone, alt: "Maybach Pasta Cila" },
 ];
 
 const GaleriPage = () => {
