@@ -50,6 +50,9 @@ import bmwF30Black from "@/assets/gallery/bmw-f30-black.jpg";
 import bmwM4RedRear2 from "@/assets/gallery/bmw-m4-red-rear-2.jpg";
 import bmw3SeriesFront from "@/assets/gallery/bmw-3-series-front.jpg";
 import bmw4Grey from "@/assets/gallery/bmw-4-grey.jpg";
+import miniCooperBlack from "@/assets/gallery/mini-cooper-black.jpg";
+import bmwM3Green from "@/assets/gallery/bmw-m3-green.jpg";
+import bmw5Black from "@/assets/gallery/bmw-5-black.jpg";
 
 const categories = [
   { id: "all", label: "Tümü" },
@@ -102,6 +105,9 @@ const galleryItems = [
   { id: 41, category: "pasta", src: bmwM4RedRear2, alt: "BMW M4 Kırmızı Arka Pasta Cila" },
   { id: 42, category: "seramik", src: bmw3SeriesFront, alt: "BMW 3 Serisi Ön Seramik" },
   { id: 43, category: "ppf", src: bmw4Grey, alt: "BMW 4 Serisi Gri PPF" },
+  { id: 44, category: "seramik", src: miniCooperBlack, alt: "Mini Cooper Siyah Seramik" },
+  { id: 45, category: "ppf", src: bmwM3Green, alt: "BMW M3 Yeşil PPF Kaplama" },
+  { id: 46, category: "seramik", src: bmw5Black, alt: "BMW 5 Serisi Siyah Seramik" },
 ];
 
 const GaleriPage = () => {
