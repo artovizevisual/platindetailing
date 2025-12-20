@@ -10,7 +10,7 @@ export const HeroSection = () => {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-charcoal">
         {/* Gradient overlay */}
@@ -112,29 +112,29 @@ export const HeroSection = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1, duration: 0.8 }}
-            className="mt-12 text-muted-foreground text-sm tracking-wider"
+            className="mt-8 text-muted-foreground text-sm tracking-wider"
           >
             İstanbul / Başakşehir
           </motion.p>
+
+          {/* Scroll Indicator - moved inside content */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.2, duration: 0.8 }}
+            className="mt-6"
+          >
+            <motion.div
+              animate={{ y: [0, 8, 0] }}
+              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+              className="flex flex-col items-center gap-1 text-muted-foreground"
+            >
+              <span className="text-xs tracking-wider uppercase">Keşfet</span>
+              <ChevronDown className="w-5 h-5" />
+            </motion.div>
+          </motion.div>
         </motion.div>
       </div>
-
-      {/* Scroll Indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2, duration: 0.8 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-      >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          className="flex flex-col items-center gap-2 text-muted-foreground"
-        >
-          <span className="text-xs tracking-wider uppercase">Keşfet</span>
-          <ChevronDown className="w-5 h-5" />
-        </motion.div>
-      </motion.div>
     </section>
   );
 };
