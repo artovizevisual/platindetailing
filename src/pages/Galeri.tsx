@@ -43,6 +43,13 @@ import porschePanameraRear from "@/assets/gallery/porsche-panamera-rear.jpg";
 import toggBlack from "@/assets/gallery/togg-black.jpg";
 import mercedesCClassBlack from "@/assets/gallery/mercedes-c-class-black.jpg";
 import porschePanameraBlack from "@/assets/gallery/porsche-panamera-black.jpg";
+import audiA5Black from "@/assets/gallery/audi-a5-black.jpg";
+import mercedesSBlack from "@/assets/gallery/mercedes-s-black.jpg";
+import bmw2SeriesBlack from "@/assets/gallery/bmw-2-series-black.jpg";
+import bmwF30Black from "@/assets/gallery/bmw-f30-black.jpg";
+import bmwM4RedRear2 from "@/assets/gallery/bmw-m4-red-rear-2.jpg";
+import bmw3SeriesFront from "@/assets/gallery/bmw-3-series-front.jpg";
+import bmw4Grey from "@/assets/gallery/bmw-4-grey.jpg";
 
 const categories = [
   { id: "all", label: "Tümü" },
@@ -88,6 +95,13 @@ const galleryItems = [
   { id: 34, category: "ppf", src: toggBlack, alt: "Togg T10X Siyah PPF" },
   { id: 35, category: "seramik", src: mercedesCClassBlack, alt: "Mercedes C Sınıfı Seramik" },
   { id: 36, category: "pasta", src: porschePanameraBlack, alt: "Porsche Panamera Siyah Pasta Cila" },
+  { id: 37, category: "seramik", src: audiA5Black, alt: "Audi A5 Siyah Seramik Kaplama" },
+  { id: 38, category: "ppf", src: mercedesSBlack, alt: "Mercedes S Sınıfı Siyah PPF" },
+  { id: 39, category: "seramik", src: bmw2SeriesBlack, alt: "BMW 2 Serisi Seramik" },
+  { id: 40, category: "ppf", src: bmwF30Black, alt: "BMW F30 Siyah PPF" },
+  { id: 41, category: "pasta", src: bmwM4RedRear2, alt: "BMW M4 Kırmızı Arka Pasta Cila" },
+  { id: 42, category: "seramik", src: bmw3SeriesFront, alt: "BMW 3 Serisi Ön Seramik" },
+  { id: 43, category: "ppf", src: bmw4Grey, alt: "BMW 4 Serisi Gri PPF" },
 ];
 
 const GaleriPage = () => {
