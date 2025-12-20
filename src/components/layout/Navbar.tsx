@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import platinLogo from "@/assets/platin-logo.jpg";
 
 const navLinks = [
   { href: "/", label: "Anasayfa" },
@@ -49,6 +50,11 @@ export const Navbar = () => {
           <nav className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3 group">
+              <img 
+                src={platinLogo} 
+                alt="Platin Detailing Logo" 
+                className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover"
+              />
               <div className="relative">
                 <span className="font-display text-xl md:text-2xl font-semibold tracking-wider text-gradient-platinum">
                   PLATIN

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MapPin, Phone, Clock, Instagram, MessageCircle } from "lucide-react";
+import platinLogo from "@/assets/platin-logo.jpg";
 
 const WHATSAPP_NUMBER = "905469049644";
 
@@ -10,13 +11,20 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="space-y-6">
-            <div>
-              <span className="font-display text-2xl font-semibold tracking-wider text-gradient-platinum">
-                PLATIN
-              </span>
-              <span className="font-body text-sm font-light tracking-[0.3em] text-muted-foreground ml-1">
-                DETAILING
-              </span>
+            <div className="flex items-center gap-3">
+              <img 
+                src={platinLogo} 
+                alt="Platin Detailing Logo" 
+                className="w-12 h-12 rounded-full object-cover"
+              />
+              <div>
+                <span className="font-display text-2xl font-semibold tracking-wider text-gradient-platinum">
+                  PLATIN
+                </span>
+                <span className="font-body text-sm font-light tracking-[0.3em] text-muted-foreground ml-1">
+                  DETAILING
+                </span>
+              </div>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
               Your car on the Platin Stage.
