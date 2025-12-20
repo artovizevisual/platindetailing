@@ -31,8 +31,8 @@ const Index = () => {
       <main>
         <HeroSection />
         <TrustBar />
-        <ServicesHighlight />
         <GalleryPreview />
+        <ServicesHighlight />
         <ProcessSection />
         <CTABanner />
       </main>
