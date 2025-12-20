@@ -3,42 +3,50 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight, X } from "lucide-react";
 
+// Import gallery images
+import bmw5Blue from "@/assets/gallery/bmw-5-blue.jpg";
+import rangeRoverBlack from "@/assets/gallery/range-rover-black.jpg";
+import bmw4Cabrio from "@/assets/gallery/bmw-4-cabrio.jpg";
+import bmwM4Matte from "@/assets/gallery/bmw-m4-matte.jpg";
+import electricCar from "@/assets/gallery/electric-car.jpg";
+import bmwM5Teal from "@/assets/gallery/bmw-m5-teal.jpg";
+
 const galleryImages = [
   {
     id: 1,
-    src: "https://images.unsplash.com/photo-1619405399517-d7fce0f13302?w=800&q=80",
-    alt: "PPF kaplama detay",
+    src: bmw5Blue,
+    alt: "BMW 5 Serisi PPF Kaplama",
     category: "PPF",
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80",
-    alt: "Seramik kaplama",
+    src: rangeRoverBlack,
+    alt: "Range Rover Seramik Kaplama",
     category: "Seramik",
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=800&q=80",
-    alt: "Pasta cila sonucu",
-    category: "Pasta Cila",
+    src: bmw4Cabrio,
+    alt: "BMW 4 Serisi Cabrio PPF",
+    category: "PPF",
   },
   {
     id: 4,
-    src: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&q=80",
-    alt: "Detaylı temizlik",
-    category: "İç Kuaför",
+    src: bmwM4Matte,
+    alt: "BMW M4 Mat Kaplama",
+    category: "Pasta Cila",
   },
   {
     id: 5,
-    src: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&q=80",
-    alt: "Premium araç bakım",
-    category: "VIP Yıkama",
+    src: electricCar,
+    alt: "Elektrikli Araç Seramik",
+    category: "Seramik",
   },
   {
     id: 6,
-    src: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800&q=80",
-    alt: "Cam filmi uygulama",
-    category: "Cam Filmi",
+    src: bmwM5Teal,
+    alt: "BMW M5 PPF Koruma",
+    category: "PPF",
   },
 ];
 
