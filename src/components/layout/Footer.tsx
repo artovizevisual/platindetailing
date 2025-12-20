@@ -23,7 +23,7 @@ export const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com/platindetailing"
+                href="https://www.instagram.com/platindetailing/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full border border-border hover:border-platinum/50 hover:bg-platinum/5 transition-all duration-300"
