@@ -33,6 +33,16 @@ import porscheCayenneWhite from "@/assets/gallery/porsche-cayenne-white.jpg";
 import bmwM4MatteGrey from "@/assets/gallery/bmw-m4-matte-grey.jpg";
 import electricCarGrey from "@/assets/gallery/electric-car-grey.jpg";
 import maybachTwotone from "@/assets/gallery/maybach-twotone.jpg";
+import audiS3Blue from "@/assets/gallery/audi-s3-blue.jpg";
+import bmw3Grey from "@/assets/gallery/bmw-3-grey.jpg";
+import audiQ5White from "@/assets/gallery/audi-q5-white.jpg";
+import bmw3Black from "@/assets/gallery/bmw-3-black.jpg";
+import mercedesCWhite from "@/assets/gallery/mercedes-c-white.jpg";
+import rangeRoverVelarBlack from "@/assets/gallery/range-rover-velar-black.jpg";
+import porschePanameraRear from "@/assets/gallery/porsche-panamera-rear.jpg";
+import toggBlack from "@/assets/gallery/togg-black.jpg";
+import mercedesCClassBlack from "@/assets/gallery/mercedes-c-class-black.jpg";
+import porschePanameraBlack from "@/assets/gallery/porsche-panamera-black.jpg";
 
 const categories = [
   { id: "all", label: "Tümü" },
@@ -68,6 +78,16 @@ const galleryItems = [
   { id: 24, category: "ppf", src: bmwM4MatteGrey, alt: "BMW M4 Mat Gri PPF" },
   { id: 25, category: "seramik", src: electricCarGrey, alt: "Elektrikli Araç Seramik Kaplama" },
   { id: 26, category: "pasta", src: maybachTwotone, alt: "Maybach Pasta Cila" },
+  { id: 27, category: "seramik", src: audiS3Blue, alt: "Audi S3 Mavi Seramik Kaplama" },
+  { id: 28, category: "ppf", src: bmw3Grey, alt: "BMW 3 Serisi Gri PPF" },
+  { id: 29, category: "ppf", src: audiQ5White, alt: "Audi Q5 Beyaz PPF" },
+  { id: 30, category: "seramik", src: bmw3Black, alt: "BMW 3 Serisi Siyah Seramik" },
+  { id: 31, category: "pasta", src: mercedesCWhite, alt: "Mercedes C Beyaz Pasta Cila" },
+  { id: 32, category: "ppf", src: rangeRoverVelarBlack, alt: "Range Rover Velar Siyah PPF" },
+  { id: 33, category: "seramik", src: porschePanameraRear, alt: "Porsche Panamera Arka Seramik" },
+  { id: 34, category: "ppf", src: toggBlack, alt: "Togg T10X Siyah PPF" },
+  { id: 35, category: "seramik", src: mercedesCClassBlack, alt: "Mercedes C Sınıfı Seramik" },
+  { id: 36, category: "pasta", src: porschePanameraBlack, alt: "Porsche Panamera Siyah Pasta Cila" },
 ];
 
 const GaleriPage = () => {
