@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Shield, Droplets, Sparkles, Car, Sun, Crown, ArrowRight } from "lucide-react";
+import { Shield, Droplets, Sparkles, Car, Sun, ArrowRight } from "lucide-react";
 
 const services = [
   {
@@ -31,12 +31,6 @@ const services = [
     icon: Sun,
     title: "Cam Filmi",
     description: "UV koruma. Isı yalıtımı ve mahremiyet.",
-    href: "/hizmetler",
-  },
-  {
-    icon: Crown,
-    title: "VIP Yıkama",
-    description: "Premium dış yıkama. Özel ürünlerle bakım.",
     href: "/hizmetler",
   },
 ];
