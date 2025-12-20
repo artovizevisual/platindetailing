@@ -67,9 +67,9 @@ const IletisimPage = () => {
                         Adres
                       </h3>
                       <p className="text-muted-foreground leading-relaxed">
-                        İkitelli OSB Mah., Başakşehir A Blok,
+                        Ziya Gökalp, 1. Blok Eskoop Sanayi Sitesi
                         <br />
-                        1. Rota, İstanbul
+                        C8-1 Blok No 494, 34490 Başakşehir/İstanbul
                       </p>
                     </div>
                   </div>
@@ -154,7 +154,7 @@ const IletisimPage = () => {
                       Google Harita buraya eklenecek
                     </p>
                     <a
-                      href="https://maps.google.com/?q=İkitelli+OSB+Başakşehir+İstanbul"
+                      href="https://maps.google.com/?q=Ziya+Gökalp+Eskoop+Sanayi+Sitesi+Başakşehir+İstanbul"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-platinum hover:text-platinum-light transition-colors underline"
