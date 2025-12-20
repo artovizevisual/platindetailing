@@ -148,7 +148,7 @@ const IletisimPage = () => {
                 className="card-premium rounded-2xl overflow-hidden h-[400px] lg:h-full min-h-[400px]"
               >
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1503.5!2d28.7897!3d41.0645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa5a3c5b2e8e7%3A0x8b7c5e9f2a3d4e5f!2sPLATIN%20DETAILING%20%7C%20BA%C5%9EAK%C5%9EEH%C4%B0R%20PPF!5e0!3m2!1str!2str!4v1703000000000!5m2!1str!2str"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1503.2!2d28.8029317!3d41.0862257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa5002966beff%3A0x54c96cfb4824155c!2sPLATIN%20DETAILING%20%7C%20BA%C5%9EAK%C5%9EEH%C4%B0R%20PPF%20KAPLAMA!5e0!3m2!1str!2str!4v1703000000000!5m2!1str!2str"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
