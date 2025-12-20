@@ -17,6 +17,13 @@ import bmwM4Blue from "@/assets/gallery/bmw-m4-blue.jpg";
 import bentleyBlack from "@/assets/gallery/bentley-black.jpg";
 import bmwM5Brown from "@/assets/gallery/bmw-m5-brown.jpg";
 import rangeRoverVelar from "@/assets/gallery/range-rover-velar.jpg";
+import bmwM4RedFront from "@/assets/gallery/bmw-m4-red-front.jpg";
+import bmwM4RedRear from "@/assets/gallery/bmw-m4-red-rear.jpg";
+import bmwM3Orange from "@/assets/gallery/bmw-m3-orange.jpg";
+import porschePanamera from "@/assets/gallery/porsche-panamera.jpg";
+import bmwM2GoldWheels from "@/assets/gallery/bmw-m2-gold-wheels.jpg";
+import cupraTravascan from "@/assets/gallery/cupra-tavascan.jpg";
+import bmwM3Red from "@/assets/gallery/bmw-m3-red.jpg";
 
 const categories = [
   { id: "all", label: "Tümü" },
@@ -36,6 +43,13 @@ const galleryItems = [
   { id: 8, category: "seramik", src: bentleyBlack, alt: "Bentley Seramik Kaplama" },
   { id: 9, category: "ppf", src: bmwM5Brown, alt: "BMW M5 PPF Uygulama" },
   { id: 10, category: "seramik", src: rangeRoverVelar, alt: "Range Rover Velar Seramik" },
+  { id: 11, category: "ppf", src: bmwM4RedFront, alt: "BMW M4 Kırmızı PPF" },
+  { id: 12, category: "pasta", src: bmwM4RedRear, alt: "BMW M4 Kırmızı Detay" },
+  { id: 13, category: "pasta", src: bmwM3Orange, alt: "BMW M3 Turuncu Pasta Cila" },
+  { id: 14, category: "seramik", src: porschePanamera, alt: "Porsche Panamera Seramik" },
+  { id: 15, category: "ppf", src: bmwM2GoldWheels, alt: "BMW M2 Altın Jant PPF" },
+  { id: 16, category: "seramik", src: cupraTravascan, alt: "Cupra Tavascan Seramik" },
+  { id: 17, category: "ppf", src: bmwM3Red, alt: "BMW M3 Kırmızı PPF" },
 ];
 
 const GaleriPage = () => {
