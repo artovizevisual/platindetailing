@@ -89,7 +89,7 @@ export const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-platinum mt-0.5 flex-shrink-0" />
                 <span className="text-muted-foreground text-sm">
-                  İkitelli OSB Mah., Başakşehir A Blok, 1. Rota, İstanbul
+                  Ziya Gökalp, 1. Blok Eskoop Sanayi Sitesi C8-1 Blok No 494, 34490 Başakşehir/İstanbul
                 </span>
               </li>
               <li className="flex items-center gap-3">

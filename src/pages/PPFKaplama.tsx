@@ -84,7 +84,8 @@ const PPFLandingPage = () => {
             description: "Premium araç detailing hizmeti - PPF, seramik kaplama, pasta cila",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "İkitelli OSB Mah., Başakşehir A Blok, 1. Rota",
+              streetAddress: "Ziya Gökalp, 1. Blok Eskoop Sanayi Sitesi C8-1 Blok No 494",
+              postalCode: "34490",
               addressLocality: "Başakşehir",
               addressRegion: "İstanbul",
               addressCountry: "TR",
