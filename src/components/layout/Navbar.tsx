@@ -8,7 +8,6 @@ const navLinks = [
   { href: "/", label: "Anasayfa" },
   { href: "/hizmetler", label: "Hizmetler" },
   { href: "/galeri", label: "Galeri" },
-  { href: "/paketler", label: "Paketler" },
   { href: "/iletisim", label: "İletişim" },
 ];
 

@@ -49,8 +49,8 @@ export const Footer = () => {
                 { href: "/", label: "Anasayfa" },
                 { href: "/hizmetler", label: "Hizmetler" },
                 { href: "/galeri", label: "Galeri" },
-                { href: "/paketler", label: "Paketler & Randevu" },
                 { href: "/ppf-kaplama", label: "PPF Kaplama" },
+                { href: "/iletisim", label: "İletişim" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
