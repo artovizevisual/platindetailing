@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { CTABanner } from "@/components/home/CTABanner";
-import { Shield, Droplets, Sparkles, Car, Sun, Crown, Check, HelpCircle } from "lucide-react";
+import { Shield, Droplets, Sparkles, Car, Sun, Check, HelpCircle } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
@@ -152,34 +152,6 @@ const services = [
       },
     ],
   },
-  {
-    id: "vip",
-    icon: Crown,
-    title: "VIP Yıkama & Deri Bakım",
-    description: "Premium ürünlerle detaylı dış yıkama ve profesyonel deri bakım hizmeti.",
-    forWhom: [
-      "Düzenli bakım isteyenler",
-      "Premium hizmet arayanlar",
-      "Deri iç mekanlı araçlar",
-      "Titiz araç sahipleri",
-    ],
-    benefits: [
-      "Premium ürünler",
-      "El yıkama",
-      "Deri nemlendirme",
-      "Detaylı temizlik",
-    ],
-    faq: [
-      {
-        q: "Normal yıkamadan farkı ne?",
-        a: "Premium ürünler, el işçiliği ve detaylı yaklaşım ile fark yaratıyoruz.",
-      },
-      {
-        q: "Ne sıklıkla yaptırmalıyım?",
-        a: "Kullanım durumuna göre 2-4 haftada bir önerilir.",
-      },
-    ],
-  },
 ];
 
 const HizmetlerPage = () => {
@@ -189,7 +161,7 @@ const HizmetlerPage = () => {
         <title>Hizmetlerimiz | PLATIN DETAILING</title>
         <meta
           name="description"
-          content="PPF kaplama, seramik kaplama, pasta cila, iç kuaför, cam filmi ve VIP yıkama hizmetleri. Başakşehir'de premium araç bakımı."
+          content="PPF kaplama, seramik kaplama, pasta cila, iç kuaför ve cam filmi hizmetleri. Başakşehir'de premium araç bakımı."
         />
       </Helmet>
 
