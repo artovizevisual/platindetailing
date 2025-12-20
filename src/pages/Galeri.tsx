@@ -6,28 +6,36 @@ import { Footer } from "@/components/layout/Footer";
 import { CTABanner } from "@/components/home/CTABanner";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
+// Import gallery images
+import bmw5Blue from "@/assets/gallery/bmw-5-blue.jpg";
+import rangeRoverBlack from "@/assets/gallery/range-rover-black.jpg";
+import bmw4Cabrio from "@/assets/gallery/bmw-4-cabrio.jpg";
+import bmwM4Matte from "@/assets/gallery/bmw-m4-matte.jpg";
+import electricCar from "@/assets/gallery/electric-car.jpg";
+import bmwM5Teal from "@/assets/gallery/bmw-m5-teal.jpg";
+import bmwM4Blue from "@/assets/gallery/bmw-m4-blue.jpg";
+import bentleyBlack from "@/assets/gallery/bentley-black.jpg";
+import bmwM5Brown from "@/assets/gallery/bmw-m5-brown.jpg";
+import rangeRoverVelar from "@/assets/gallery/range-rover-velar.jpg";
+
 const categories = [
   { id: "all", label: "Tümü" },
   { id: "ppf", label: "PPF" },
   { id: "seramik", label: "Seramik" },
   { id: "pasta", label: "Pasta Cila" },
-  { id: "ic", label: "İç Kuaför" },
-  { id: "cam", label: "Cam Filmi" },
 ];
 
 const galleryItems = [
-  { id: 1, category: "ppf", src: "https://images.unsplash.com/photo-1619405399517-d7fce0f13302?w=800&q=80", alt: "PPF kaplama" },
-  { id: 2, category: "seramik", src: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80", alt: "Seramik kaplama" },
-  { id: 3, category: "pasta", src: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=800&q=80", alt: "Pasta cila" },
-  { id: 4, category: "ic", src: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&q=80", alt: "İç temizlik" },
-  { id: 5, category: "cam", src: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&q=80", alt: "Cam filmi" },
-  { id: 6, category: "ppf", src: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800&q=80", alt: "PPF detay" },
-  { id: 7, category: "seramik", src: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80", alt: "Seramik parlaklık" },
-  { id: 8, category: "pasta", src: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80", alt: "Boya düzeltme" },
-  { id: 9, category: "ppf", src: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&q=80", alt: "PPF uygulama" },
-  { id: 10, category: "ic", src: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80", alt: "İç mekan detay" },
-  { id: 11, category: "cam", src: "https://images.unsplash.com/photo-1612825173281-9a193378527e?w=800&q=80", alt: "Cam filmi sonuç" },
-  { id: 12, category: "seramik", src: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80", alt: "Seramik finish" },
+  { id: 1, category: "ppf", src: bmw5Blue, alt: "BMW 5 Serisi PPF Kaplama" },
+  { id: 2, category: "seramik", src: rangeRoverBlack, alt: "Range Rover Seramik Kaplama" },
+  { id: 3, category: "ppf", src: bmw4Cabrio, alt: "BMW 4 Serisi Cabrio PPF" },
+  { id: 4, category: "pasta", src: bmwM4Matte, alt: "BMW M4 Mat Kaplama" },
+  { id: 5, category: "seramik", src: electricCar, alt: "Elektrikli Araç Seramik" },
+  { id: 6, category: "ppf", src: bmwM5Teal, alt: "BMW M5 PPF Koruma" },
+  { id: 7, category: "pasta", src: bmwM4Blue, alt: "BMW M4 Pasta Cila" },
+  { id: 8, category: "seramik", src: bentleyBlack, alt: "Bentley Seramik Kaplama" },
+  { id: 9, category: "ppf", src: bmwM5Brown, alt: "BMW M5 PPF Uygulama" },
+  { id: 10, category: "seramik", src: rangeRoverVelar, alt: "Range Rover Velar Seramik" },
 ];
 
 const GaleriPage = () => {
