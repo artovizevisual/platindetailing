@@ -30,8 +30,8 @@ const Index = () => {
       
       <main>
         <HeroSection />
-        <TrustBar />
         <GalleryPreview />
+        <TrustBar />
         <ServicesHighlight />
         <ProcessSection />
         <CTABanner />
