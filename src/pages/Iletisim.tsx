@@ -104,7 +104,7 @@ const IletisimPage = () => {
                         Çalışma Saatleri
                       </h3>
                       <p className="text-muted-foreground">
-                        Pazartesi - Cumartesi: 09:00 - 19:00
+                        Pazartesi - Cumartesi: 09:00 - 20:30
                         <br />
                         Pazar: Kapalı
                       </p>

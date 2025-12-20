@@ -104,7 +104,7 @@ export const Footer = () => {
               <li className="flex items-center gap-3">
                 <Clock className="w-5 h-5 text-platinum flex-shrink-0" />
                 <span className="text-muted-foreground text-sm">
-                  Pzt - Cmt: 09:00 - 19:00
+                  Pzt - Cmt: 09:00 - 20:30
                 </span>
               </li>
             </ul>
