@@ -147,22 +147,17 @@ const IletisimPage = () => {
                 transition={{ duration: 0.6 }}
                 className="card-premium rounded-2xl overflow-hidden h-[400px] lg:h-full min-h-[400px]"
               >
-                <div className="w-full h-full bg-charcoal flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <MapPin className="w-12 h-12 text-platinum mx-auto mb-4" />
-                    <p className="text-muted-foreground mb-4">
-                      Google Harita buraya eklenecek
-                    </p>
-                    <a
-                      href="https://maps.google.com/?q=Ziya+Gökalp+Eskoop+Sanayi+Sitesi+Başakşehir+İstanbul"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-platinum hover:text-platinum-light transition-colors underline"
-                    >
-                      Google Haritalar'da Aç
-                    </a>
-                  </div>
-                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.8076!2d28.7897!3d41.0947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zWml5YSBHw7ZrYWxwLCAxLiBCbG9rIEVza29vcCBTYW5heWkgU2l0ZXNpIEM4LTEgQmxvayBObyA0OTQsIDM0NDkwIEJhxZ9ha8WfZWhpci_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1234567890"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Platin Detailing Konum"
+                  className="w-full h-full"
+                />
               </motion.div>
             </div>
           </div>
