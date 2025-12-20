@@ -5,7 +5,7 @@ import { ArrowRight, X } from "lucide-react";
 
 // Import gallery images
 import bmw5Blue from "@/assets/gallery/bmw-5-blue.jpg";
-import rangeRoverBlack from "@/assets/gallery/range-rover-black.jpg";
+import mercedesECabrioGrey from "@/assets/gallery/mercedes-e-cabrio-grey.jpg";
 import bmw4Cabrio from "@/assets/gallery/bmw-4-cabrio.jpg";
 import bmwM4Matte from "@/assets/gallery/bmw-m4-matte.jpg";
 import electricCar from "@/assets/gallery/electric-car.jpg";
@@ -20,8 +20,8 @@ const galleryImages = [
   },
   {
     id: 2,
-    src: rangeRoverBlack,
-    alt: "Range Rover Seramik Kaplama",
+    src: mercedesECabrioGrey,
+    alt: "Mercedes E Cabrio Seramik Kaplama",
     category: "Seramik",
   },
   {

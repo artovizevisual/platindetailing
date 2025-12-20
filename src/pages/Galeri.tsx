@@ -53,6 +53,7 @@ import bmw4Grey from "@/assets/gallery/bmw-4-grey.jpg";
 import miniCooperBlack from "@/assets/gallery/mini-cooper-black.jpg";
 import bmwM3Green from "@/assets/gallery/bmw-m3-green.jpg";
 import bmw5Black from "@/assets/gallery/bmw-5-black.jpg";
+import mercedesECabrioGrey from "@/assets/gallery/mercedes-e-cabrio-grey.jpg";
 
 const categories = [
   { id: "all", label: "Tümü" },
@@ -108,6 +109,7 @@ const galleryItems = [
   { id: 44, category: "seramik", src: miniCooperBlack, alt: "Mini Cooper Siyah Seramik" },
   { id: 45, category: "ppf", src: bmwM3Green, alt: "BMW M3 Yeşil PPF Kaplama" },
   { id: 46, category: "seramik", src: bmw5Black, alt: "BMW 5 Serisi Siyah Seramik" },
+  { id: 47, category: "seramik", src: mercedesECabrioGrey, alt: "Mercedes E Cabrio Seramik Kaplama" },
 ];
 
 const GaleriPage = () => {
