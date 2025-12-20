@@ -7,8 +7,8 @@ import platinLogo from "@/assets/platin-logo.jpg";
 
 const navLinks = [
   { href: "/", label: "Anasayfa" },
-  { href: "/hizmetler", label: "Hizmetler" },
   { href: "/galeri", label: "Galeri" },
+  { href: "/hizmetler", label: "Hizmetler" },
   { href: "/iletisim", label: "İletişim" },
 ];
 
