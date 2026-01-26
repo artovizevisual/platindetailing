@@ -120,7 +120,6 @@ const galleryItems = [
   { id: 53, category: "ppf", src: bmwM3Green, alt: "BMW M3 Yeşil PPF Kaplama" },
   { id: 54, category: "seramik", src: bmw5Black, alt: "BMW 5 Serisi Siyah Seramik" },
   { id: 55, category: "seramik", src: mercedesECabrioGrey, alt: "Mercedes E Cabrio Seramik Kaplama" },
-  { id: 56, category: "seramik", src: audiS3Red, alt: "Audi S3 Kırmızı Seramik Kaplama" },
 ];
 
 const GaleriPage = () => {
