@@ -59,7 +59,7 @@ import audiS3Red from "@/assets/gallery/audi-s3-red.jpg";
 import mercedesEqeBlack from "@/assets/gallery/mercedes-eqe-black.jpg";
 import mercedesEqeFront from "@/assets/gallery/mercedes-eqe-front.jpg";
 import mustangClassicBlack from "@/assets/gallery/mustang-classic-black.jpg";
-import mustangClassicFront from "@/assets/gallery/mustang-classic-front.jpg";
+
 
 const categories = [
   { id: "all", label: "Tümü" },
@@ -98,7 +98,6 @@ const galleryItems = [
   { id: 29, category: "seramik", src: porscheCayenneWhite, alt: "Porsche Cayenne Seramik" },
   { id: 31, category: "ppf", src: bmwM4MatteGrey, alt: "BMW M4 Mat Gri PPF" },
   { id: 32, category: "seramik", src: electricCarGrey, alt: "Elektrikli Araç Seramik Kaplama" },
-  { id: 33, category: "pasta", src: mustangClassicFront, alt: "Ford Mustang Klasik Detay" },
   { id: 34, category: "pasta", src: maybachTwotone, alt: "Maybach Pasta Cila" },
   { id: 35, category: "seramik", src: audiS3Blue, alt: "Audi S3 Mavi Seramik Kaplama" },
   { id: 36, category: "ppf", src: bmw3Grey, alt: "BMW 3 Serisi Gri PPF" },
