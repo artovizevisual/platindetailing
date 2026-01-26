@@ -55,6 +55,7 @@ import bmwM3Green from "@/assets/gallery/bmw-m3-green.jpg";
 import bmw5Black from "@/assets/gallery/bmw-5-black.jpg";
 import mercedesECabrioGrey from "@/assets/gallery/mercedes-e-cabrio-grey.jpg";
 import audiS3Red from "@/assets/gallery/audi-s3-red.jpg";
+import audiS3RedNew from "@/assets/gallery/audi-s3-red-new.jpg";
 
 import mercedesEqeBlack from "@/assets/gallery/mercedes-eqe-black.jpg";
 import mercedesEqeFront from "@/assets/gallery/mercedes-eqe-front.jpg";
@@ -92,7 +93,8 @@ const galleryItems = [
   { id: 18, category: "seramik", src: mercedesGtBlack, alt: "Mercedes GT Seramik Kaplama" },
   { id: 19, category: "ppf", src: bmwX5White, alt: "BMW X5 Beyaz PPF" },
   { id: 20, category: "pasta", src: volvoS60Red, alt: "Volvo S60 Pasta Cila" },
-  { id: 21, category: "seramik", src: bmw5Brown, alt: "BMW 5 Serisi Seramik Kaplama" },
+  { id: 21, category: "seramik", src: audiS3RedNew, alt: "Audi S3 Kırmızı Seramik Kaplama" },
+  { id: 22, category: "seramik", src: bmw5Brown, alt: "BMW 5 Serisi Seramik Kaplama" },
   { id: 27, category: "ppf", src: audiA6Black, alt: "Audi A6 PPF Koruma" },
   { id: 28, category: "pasta", src: mustangClassicBlack, alt: "Ford Mustang Klasik Pasta Cila" },
   { id: 29, category: "seramik", src: porscheCayenneWhite, alt: "Porsche Cayenne Seramik" },
