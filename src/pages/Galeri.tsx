@@ -115,6 +115,7 @@ const galleryItems = [
   { id: 38, category: "seramik", src: bmw3Black, alt: "BMW 3 Serisi Siyah Seramik" },
   { id: 39, category: "pasta", src: mercedesCWhite, alt: "Mercedes C Beyaz Pasta Cila" },
   { id: 40, category: "ppf", src: rangeRoverVelarBlack, alt: "Range Rover Velar Siyah PPF" },
+  { id: 61, category: "seramik", src: bmwM3IceBlue, alt: "BMW M3 Buz Mavisi Seramik Kaplama" },
   { id: 58, category: "seramik", src: bmw5WhiteSide, alt: "BMW 5 Serisi Beyaz Seramik Kaplama" },
   { id: 41, category: "seramik", src: porschePanameraRear, alt: "Porsche Panamera Arka Seramik" },
   { id: 42, category: "ppf", src: toggBlack, alt: "Togg T10X Siyah PPF" },
