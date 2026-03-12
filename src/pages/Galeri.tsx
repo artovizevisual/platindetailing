@@ -62,6 +62,9 @@ import bmw5WhiteSide from "@/assets/gallery/bmw-5-white-side.jpg";
 import mercedesEqeBlack from "@/assets/gallery/mercedes-eqe-black.jpg";
 import mercedesEqeFront from "@/assets/gallery/mercedes-eqe-front.jpg";
 import mustangClassicBlack from "@/assets/gallery/mustang-classic-black.jpg";
+import bmw4RedFront from "@/assets/gallery/bmw-4-red-front.jpg";
+import bmw4RedSide from "@/assets/gallery/bmw-4-red-side.jpg";
+import bmwM3IceBlue from "@/assets/gallery/bmw-m3-iceblue.jpg";
 
 
 const categories = [
@@ -78,6 +81,7 @@ const galleryItems = [
   { id: 4, category: "pasta", src: bmwM4Matte, alt: "BMW M4 Mat Kaplama" },
   { id: 5, category: "seramik", src: electricCar, alt: "Elektrikli Araç Seramik" },
   { id: 6, category: "ppf", src: bmwM5Teal, alt: "BMW M5 PPF Koruma" },
+  { id: 59, category: "seramik", src: bmw4RedFront, alt: "BMW 4 Serisi Kırmızı Seramik Kaplama" },
   { id: 7, category: "pasta", src: bmwM4Blue, alt: "BMW M4 Pasta Cila" },
   { id: 8, category: "seramik", src: bentleyBlack, alt: "Bentley Seramik Kaplama" },
   { id: 57, category: "ppf", src: bmw5WhiteFront, alt: "BMW 5 Serisi Beyaz PPF Kaplama" },
@@ -96,6 +100,7 @@ const galleryItems = [
   { id: 18, category: "seramik", src: mercedesGtBlack, alt: "Mercedes GT Seramik Kaplama" },
   { id: 19, category: "ppf", src: bmwX5White, alt: "BMW X5 Beyaz PPF" },
   { id: 20, category: "pasta", src: volvoS60Red, alt: "Volvo S60 Pasta Cila" },
+  { id: 60, category: "ppf", src: bmw4RedSide, alt: "BMW 4 Serisi Kırmızı PPF Koruma" },
   { id: 21, category: "seramik", src: audiS3RedNew, alt: "Audi S3 Kırmızı Seramik Kaplama" },
   { id: 22, category: "seramik", src: bmw5Brown, alt: "BMW 5 Serisi Seramik Kaplama" },
   { id: 27, category: "ppf", src: audiA6Black, alt: "Audi A6 PPF Koruma" },
@@ -110,6 +115,7 @@ const galleryItems = [
   { id: 38, category: "seramik", src: bmw3Black, alt: "BMW 3 Serisi Siyah Seramik" },
   { id: 39, category: "pasta", src: mercedesCWhite, alt: "Mercedes C Beyaz Pasta Cila" },
   { id: 40, category: "ppf", src: rangeRoverVelarBlack, alt: "Range Rover Velar Siyah PPF" },
+  { id: 61, category: "seramik", src: bmwM3IceBlue, alt: "BMW M3 Buz Mavisi Seramik Kaplama" },
   { id: 58, category: "seramik", src: bmw5WhiteSide, alt: "BMW 5 Serisi Beyaz Seramik Kaplama" },
   { id: 41, category: "seramik", src: porschePanameraRear, alt: "Porsche Panamera Arka Seramik" },
   { id: 42, category: "ppf", src: toggBlack, alt: "Togg T10X Siyah PPF" },
