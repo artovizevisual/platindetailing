@@ -56,6 +56,8 @@ import bmw5Black from "@/assets/gallery/bmw-5-black.jpg";
 import mercedesECabrioGrey from "@/assets/gallery/mercedes-e-cabrio-grey.jpg";
 import audiS3Red from "@/assets/gallery/audi-s3-red.jpg";
 import audiS3RedNew from "@/assets/gallery/audi-s3-red-new.jpg";
+import bmw5WhiteFront from "@/assets/gallery/bmw-5-white-front.jpg";
+import bmw5WhiteSide from "@/assets/gallery/bmw-5-white-side.jpg";
 
 import mercedesEqeBlack from "@/assets/gallery/mercedes-eqe-black.jpg";
 import mercedesEqeFront from "@/assets/gallery/mercedes-eqe-front.jpg";
