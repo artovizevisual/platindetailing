@@ -62,6 +62,9 @@ import bmw5WhiteSide from "@/assets/gallery/bmw-5-white-side.jpg";
 import mercedesEqeBlack from "@/assets/gallery/mercedes-eqe-black.jpg";
 import mercedesEqeFront from "@/assets/gallery/mercedes-eqe-front.jpg";
 import mustangClassicBlack from "@/assets/gallery/mustang-classic-black.jpg";
+import bmw4RedFront from "@/assets/gallery/bmw-4-red-front.jpg";
+import bmw4RedSide from "@/assets/gallery/bmw-4-red-side.jpg";
+import bmwM3IceBlue from "@/assets/gallery/bmw-m3-iceblue.jpg";
 
 
 const categories = [
