@@ -100,6 +100,7 @@ const galleryItems = [
   { id: 18, category: "seramik", src: mercedesGtBlack, alt: "Mercedes GT Seramik Kaplama" },
   { id: 19, category: "ppf", src: bmwX5White, alt: "BMW X5 Beyaz PPF" },
   { id: 20, category: "pasta", src: volvoS60Red, alt: "Volvo S60 Pasta Cila" },
+  { id: 60, category: "ppf", src: bmw4RedSide, alt: "BMW 4 Serisi Kırmızı PPF Koruma" },
   { id: 21, category: "seramik", src: audiS3RedNew, alt: "Audi S3 Kırmızı Seramik Kaplama" },
   { id: 22, category: "seramik", src: bmw5Brown, alt: "BMW 5 Serisi Seramik Kaplama" },
   { id: 27, category: "ppf", src: audiA6Black, alt: "Audi A6 PPF Koruma" },
