@@ -9,7 +9,7 @@ import mercedesECabrioGrey from "@/assets/gallery/mercedes-e-cabrio-grey.jpg";
 import bmw4Cabrio from "@/assets/gallery/bmw-4-cabrio.jpg";
 import bmwM4Matte from "@/assets/gallery/bmw-m4-matte.jpg";
 import electricCar from "@/assets/gallery/electric-car.jpg";
-import bmwM5Teal from "@/assets/gallery/bmw-m5-teal.jpg";
+import ferrari458Home from "@/assets/gallery/ferrari-458-home.jpg";
 
 const galleryImages = [
   {
@@ -44,9 +44,9 @@ const galleryImages = [
   },
   {
     id: 6,
-    src: bmwM5Teal,
-    alt: "BMW M5 PPF Koruma",
-    category: "PPF",
+    src: ferrari458Home,
+    alt: "Ferrari 458 Italia Seramik Kaplama",
+    category: "Seramik",
   },
 ];
 
