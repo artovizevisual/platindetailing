@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 const WHATSAPP_NUMBER = "905469049644";
-const WHATSAPP_MESSAGE = "Merhaba, PPF kaplama hakkında bilgi almak istiyorum.";
+const WHATSAPP_MESSAGE = "Merhaba Emre Bey, Bilgi almak ve Randevu oluşturmak istiyorum.";
 
 const ppfBenefits = [
   "Taş sıçraması ve çiziklere karşı koruma",

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Clock, MessageCircle, Instagram } from "lucide-react";
 
 const WHATSAPP_NUMBER = "905469049644";
-const WHATSAPP_MESSAGE = "Merhaba, bilgi almak istiyorum.";
+const WHATSAPP_MESSAGE = "Merhaba Emre Bey, Bilgi almak ve Randevu oluşturmak istiyorum.";
 
 const IletisimPage = () => {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
