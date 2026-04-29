@@ -13,7 +13,7 @@ const navLinks = [
 ];
 
 const WHATSAPP_NUMBER = "905469049644";
-const WHATSAPP_MESSAGE = "Merhaba, randevu almak istiyorum.";
+const WHATSAPP_MESSAGE = "Merhaba Emre Bey, Bilgi almak ve Randevu oluşturmak istiyorum.";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
