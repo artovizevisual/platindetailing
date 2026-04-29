@@ -126,14 +126,18 @@ export const HeroSection = () => {
         transition={{ delay: 1.2, duration: 0.8 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2"
       >
-        <motion.div
+        <motion.button
+          onClick={() => {
+            document.getElementById("galeri-onizleme")?.scrollIntoView({ behavior: "smooth" });
+          }}
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          className="flex flex-col items-center gap-2 text-muted-foreground"
+          className="flex flex-col items-center gap-2 text-muted-foreground hover:text-platinum transition-colors cursor-pointer"
+          aria-label="Galeriye kaydır"
         >
           <span className="text-xs tracking-wider uppercase">Keşfet</span>
           <ChevronDown className="w-5 h-5" />
-        </motion.div>
+        </motion.button>
       </motion.div>
     </section>
   );
