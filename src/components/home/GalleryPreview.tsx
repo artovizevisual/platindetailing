@@ -54,7 +54,7 @@ export const GalleryPreview = () => {
   const [selectedImage, setSelectedImage] = useState<typeof galleryImages[0] | null>(null);
 
   return (
-    <section className="py-24 lg:py-32 bg-charcoal">
+    <section id="galeri-onizleme" className="py-24 lg:py-32 bg-charcoal">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Header */}
         <motion.div
