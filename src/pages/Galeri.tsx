@@ -70,6 +70,10 @@ import nissan350zRed from "@/assets/gallery/nissan-350z-red.jpg";
 import ferrari458Front from "@/assets/gallery/ferrari-458-front.jpg";
 import ferrari458Angle from "@/assets/gallery/ferrari-458-angle.jpg";
 import ferrari458Rear from "@/assets/gallery/ferrari-458-rear.jpg";
+import bmwM4CabrioRedFront from "@/assets/gallery/bmw-m4-cabrio-red-front.jpg";
+import bmwM4RedHood from "@/assets/gallery/bmw-m4-red-hood.jpg";
+import bmwM4CabrioRedAngle from "@/assets/gallery/bmw-m4-cabrio-red-angle.jpg";
+import bmwM4CabrioRedSide from "@/assets/gallery/bmw-m4-cabrio-red-side.jpg";
 
 
 const categories = [
@@ -89,6 +93,7 @@ const galleryItems = [
   { id: 59, category: "seramik", src: bmw4RedFront, alt: "BMW 4 Serisi Kırmızı Seramik Kaplama" },
   { id: 7, category: "pasta", src: bmwM4Blue, alt: "BMW M4 Pasta Cila" },
   { id: 8, category: "seramik", src: bentleyBlack, alt: "Bentley Seramik Kaplama" },
+  { id: 67, category: "seramik", src: bmwM4CabrioRedFront, alt: "BMW M4 Cabrio Kırmızı Seramik Kaplama" },
   { id: 62, category: "seramik", src: ferrari458Angle, alt: "Ferrari 458 Italia Seramik Kaplama" },
   { id: 57, category: "ppf", src: bmw5WhiteFront, alt: "BMW 5 Serisi Beyaz PPF Kaplama" },
   { id: 9, category: "ppf", src: mercedesEqeBlack, alt: "Mercedes EQE PPF Koruma" },
@@ -107,6 +112,7 @@ const galleryItems = [
   { id: 63, category: "pasta", src: nissan350zRed, alt: "Nissan 350Z Kırmızı Pasta Cila" },
   { id: 19, category: "ppf", src: bmwX5White, alt: "BMW X5 Beyaz PPF" },
   { id: 20, category: "pasta", src: volvoS60Red, alt: "Volvo S60 Pasta Cila" },
+  { id: 69, category: "ppf", src: bmwM4CabrioRedAngle, alt: "BMW M4 Cabrio Kırmızı PPF Koruma" },
   { id: 60, category: "ppf", src: bmw4RedSide, alt: "BMW 4 Serisi Kırmızı PPF Koruma" },
   { id: 21, category: "seramik", src: audiS3RedNew, alt: "Audi S3 Kırmızı Seramik Kaplama" },
   { id: 22, category: "seramik", src: bmw5Brown, alt: "BMW 5 Serisi Seramik Kaplama" },
@@ -122,6 +128,7 @@ const galleryItems = [
   { id: 37, category: "ppf", src: audiQ5White, alt: "Audi Q5 Beyaz PPF" },
   { id: 38, category: "seramik", src: bmw3Black, alt: "BMW 3 Serisi Siyah Seramik" },
   { id: 39, category: "pasta", src: mercedesCWhite, alt: "Mercedes C Beyaz Pasta Cila" },
+  { id: 68, category: "pasta", src: bmwM4RedHood, alt: "BMW M4 Kırmızı Pasta Cila Detay" },
   { id: 40, category: "ppf", src: rangeRoverVelarBlack, alt: "Range Rover Velar Siyah PPF" },
   { id: 61, category: "seramik", src: bmwM3IceBlue, alt: "BMW M3 Buz Mavisi Seramik Kaplama" },
   { id: 58, category: "seramik", src: bmw5WhiteSide, alt: "BMW 5 Serisi Beyaz Seramik Kaplama" },
@@ -137,6 +144,7 @@ const galleryItems = [
   { id: 49, category: "pasta", src: bmwM4RedRear2, alt: "BMW M4 Kırmızı Arka Pasta Cila" },
   { id: 50, category: "seramik", src: bmw3SeriesFront, alt: "BMW 3 Serisi Ön Seramik" },
   { id: 51, category: "ppf", src: bmw4Grey, alt: "BMW 4 Serisi Gri PPF" },
+  { id: 70, category: "seramik", src: bmwM4CabrioRedSide, alt: "BMW M4 Cabrio Kırmızı Seramik Detay" },
   { id: 52, category: "seramik", src: miniCooperBlack, alt: "Mini Cooper Siyah Seramik" },
   { id: 53, category: "ppf", src: bmwM3Green, alt: "BMW M3 Yeşil PPF Kaplama" },
   { id: 54, category: "seramik", src: bmw5Black, alt: "BMW 5 Serisi Siyah Seramik" },
