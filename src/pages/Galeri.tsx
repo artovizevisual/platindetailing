@@ -70,6 +70,10 @@ import nissan350zRed from "@/assets/gallery/nissan-350z-red.jpg";
 import ferrari458Front from "@/assets/gallery/ferrari-458-front.jpg";
 import ferrari458Angle from "@/assets/gallery/ferrari-458-angle.jpg";
 import ferrari458Rear from "@/assets/gallery/ferrari-458-rear.jpg";
+import bmwM4CabrioRedFront from "@/assets/gallery/bmw-m4-cabrio-red-front.jpg";
+import bmwM4RedHood from "@/assets/gallery/bmw-m4-red-hood.jpg";
+import bmwM4CabrioRedAngle from "@/assets/gallery/bmw-m4-cabrio-red-angle.jpg";
+import bmwM4CabrioRedSide from "@/assets/gallery/bmw-m4-cabrio-red-side.jpg";
 
 
 const categories = [
@@ -142,6 +146,10 @@ const galleryItems = [
   { id: 54, category: "seramik", src: bmw5Black, alt: "BMW 5 Serisi Siyah Seramik" },
   { id: 66, category: "pasta", src: ferrari458Rear, alt: "Ferrari 458 Italia Arka Pasta Cila" },
   { id: 55, category: "seramik", src: mercedesECabrioGrey, alt: "Mercedes E Cabrio Seramik Kaplama" },
+  { id: 67, category: "seramik", src: bmwM4CabrioRedFront, alt: "BMW M4 Cabrio Kırmızı Seramik Kaplama" },
+  { id: 68, category: "pasta", src: bmwM4RedHood, alt: "BMW M4 Kırmızı Pasta Cila Detay" },
+  { id: 69, category: "ppf", src: bmwM4CabrioRedAngle, alt: "BMW M4 Cabrio Kırmızı PPF Koruma" },
+  { id: 70, category: "seramik", src: bmwM4CabrioRedSide, alt: "BMW M4 Cabrio Kırmızı Seramik Detay" },
 ];
 
 const GaleriPage = () => {
