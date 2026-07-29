@@ -92,6 +92,8 @@ const categories = [
 
 const galleryItems = [
   { id: 1, category: "ppf", src: bmw5Blue, alt: "BMW 5 Serisi PPF Kaplama" },
+  { id: 71, category: "seramik", src: bmwM4RedShowroom, alt: "BMW M4 Kırmızı Seramik Kaplama" },
+
   { id: 2, category: "seramik", src: rangeRoverBlack, alt: "Range Rover Seramik Kaplama" },
   { id: 3, category: "ppf", src: bmw4Cabrio, alt: "BMW 4 Serisi Cabrio PPF" },
   { id: 72, category: "ppf", src: corvetteWhiteAngle, alt: "Chevrolet Corvette Beyaz PPF Koruma" },
