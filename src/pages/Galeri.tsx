@@ -97,6 +97,8 @@ const galleryItems = [
   { id: 4, category: "pasta", src: bmwM4Matte, alt: "BMW M4 Mat Kaplama" },
   { id: 5, category: "seramik", src: electricCar, alt: "Elektrikli Araç Seramik" },
   { id: 6, category: "ppf", src: bmwM5Teal, alt: "BMW M5 PPF Koruma" },
+  { id: 73, category: "seramik", src: corvetteWhiteFront, alt: "Chevrolet Corvette Beyaz Seramik Kaplama" },
+
   { id: 59, category: "seramik", src: bmw4RedFront, alt: "BMW 4 Serisi Kırmızı Seramik Kaplama" },
   { id: 7, category: "pasta", src: bmwM4Blue, alt: "BMW M4 Pasta Cila" },
   { id: 8, category: "seramik", src: bentleyBlack, alt: "Bentley Seramik Kaplama" },
