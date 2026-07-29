@@ -106,6 +106,8 @@ const galleryItems = [
   { id: 9, category: "ppf", src: mercedesEqeBlack, alt: "Mercedes EQE PPF Koruma" },
   { id: 10, category: "ppf", src: bmwM5Brown, alt: "BMW M5 PPF Uygulama" },
   { id: 11, category: "seramik", src: rangeRoverVelar, alt: "Range Rover Velar Seramik" },
+  { id: 76, category: "seramik", src: porsche911WhiteFront, alt: "Porsche 911 GT3 Beyaz Seramik Kaplama" },
+
   { id: 12, category: "ppf", src: bmwM4RedFront, alt: "BMW M4 Kırmızı PPF" },
   { id: 13, category: "pasta", src: bmwM4RedRear, alt: "BMW M4 Kırmızı Detay" },
   { id: 14, category: "seramik", src: mercedesEqeFront, alt: "Mercedes EQE Seramik Kaplama" },
