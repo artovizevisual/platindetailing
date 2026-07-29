@@ -74,6 +74,13 @@ import bmwM4CabrioRedFront from "@/assets/gallery/bmw-m4-cabrio-red-front.jpg";
 import bmwM4RedHood from "@/assets/gallery/bmw-m4-red-hood.jpg";
 import bmwM4CabrioRedAngle from "@/assets/gallery/bmw-m4-cabrio-red-angle.jpg";
 import bmwM4CabrioRedSide from "@/assets/gallery/bmw-m4-cabrio-red-side.jpg";
+import bmwM4RedShowroom from "@/assets/gallery/bmw-m4-red-showroom.jpg";
+import corvetteWhiteAngle from "@/assets/gallery/corvette-white-angle.jpg";
+import corvetteWhiteFront from "@/assets/gallery/corvette-white-front.jpg";
+import bmw3BlueFront from "@/assets/gallery/bmw-3-blue-front.jpg";
+import porsche911WhiteAngle from "@/assets/gallery/porsche-911-white-angle.jpg";
+import porsche911WhiteFront from "@/assets/gallery/porsche-911-white-front.jpg";
+
 
 
 const categories = [
