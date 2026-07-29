@@ -100,6 +100,8 @@ const galleryItems = [
   { id: 59, category: "seramik", src: bmw4RedFront, alt: "BMW 4 Serisi Kırmızı Seramik Kaplama" },
   { id: 7, category: "pasta", src: bmwM4Blue, alt: "BMW M4 Pasta Cila" },
   { id: 8, category: "seramik", src: bentleyBlack, alt: "Bentley Seramik Kaplama" },
+  { id: 74, category: "pasta", src: bmw3BlueFront, alt: "BMW 3 Serisi Mavi Pasta Cila" },
+
   { id: 67, category: "seramik", src: bmwM4CabrioRedFront, alt: "BMW M4 Cabrio Kırmızı Seramik Kaplama" },
   { id: 62, category: "seramik", src: ferrari458Angle, alt: "Ferrari 458 Italia Seramik Kaplama" },
   { id: 57, category: "ppf", src: bmw5WhiteFront, alt: "BMW 5 Serisi Beyaz PPF Kaplama" },
