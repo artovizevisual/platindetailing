@@ -74,6 +74,13 @@ import bmwM4CabrioRedFront from "@/assets/gallery/bmw-m4-cabrio-red-front.jpg";
 import bmwM4RedHood from "@/assets/gallery/bmw-m4-red-hood.jpg";
 import bmwM4CabrioRedAngle from "@/assets/gallery/bmw-m4-cabrio-red-angle.jpg";
 import bmwM4CabrioRedSide from "@/assets/gallery/bmw-m4-cabrio-red-side.jpg";
+import bmwM4RedShowroom from "@/assets/gallery/bmw-m4-red-showroom.jpg";
+import corvetteWhiteAngle from "@/assets/gallery/corvette-white-angle.jpg";
+import corvetteWhiteFront from "@/assets/gallery/corvette-white-front.jpg";
+import bmw3BlueFront from "@/assets/gallery/bmw-3-blue-front.jpg";
+import porsche911WhiteAngle from "@/assets/gallery/porsche-911-white-angle.jpg";
+import porsche911WhiteFront from "@/assets/gallery/porsche-911-white-front.jpg";
+
 
 
 const categories = [
@@ -85,20 +92,32 @@ const categories = [
 
 const galleryItems = [
   { id: 1, category: "ppf", src: bmw5Blue, alt: "BMW 5 Serisi PPF Kaplama" },
+  { id: 71, category: "seramik", src: bmwM4RedShowroom, alt: "BMW M4 Kırmızı Seramik Kaplama" },
+
   { id: 2, category: "seramik", src: rangeRoverBlack, alt: "Range Rover Seramik Kaplama" },
   { id: 3, category: "ppf", src: bmw4Cabrio, alt: "BMW 4 Serisi Cabrio PPF" },
+  { id: 72, category: "ppf", src: corvetteWhiteAngle, alt: "Chevrolet Corvette Beyaz PPF Koruma" },
+
   { id: 4, category: "pasta", src: bmwM4Matte, alt: "BMW M4 Mat Kaplama" },
   { id: 5, category: "seramik", src: electricCar, alt: "Elektrikli Araç Seramik" },
   { id: 6, category: "ppf", src: bmwM5Teal, alt: "BMW M5 PPF Koruma" },
+  { id: 73, category: "seramik", src: corvetteWhiteFront, alt: "Chevrolet Corvette Beyaz Seramik Kaplama" },
+
   { id: 59, category: "seramik", src: bmw4RedFront, alt: "BMW 4 Serisi Kırmızı Seramik Kaplama" },
   { id: 7, category: "pasta", src: bmwM4Blue, alt: "BMW M4 Pasta Cila" },
   { id: 8, category: "seramik", src: bentleyBlack, alt: "Bentley Seramik Kaplama" },
+  { id: 74, category: "pasta", src: bmw3BlueFront, alt: "BMW 3 Serisi Mavi Pasta Cila" },
+
   { id: 67, category: "seramik", src: bmwM4CabrioRedFront, alt: "BMW M4 Cabrio Kırmızı Seramik Kaplama" },
   { id: 62, category: "seramik", src: ferrari458Angle, alt: "Ferrari 458 Italia Seramik Kaplama" },
   { id: 57, category: "ppf", src: bmw5WhiteFront, alt: "BMW 5 Serisi Beyaz PPF Kaplama" },
+  { id: 75, category: "ppf", src: porsche911WhiteAngle, alt: "Porsche 911 GT3 Beyaz PPF Koruma" },
+
   { id: 9, category: "ppf", src: mercedesEqeBlack, alt: "Mercedes EQE PPF Koruma" },
   { id: 10, category: "ppf", src: bmwM5Brown, alt: "BMW M5 PPF Uygulama" },
   { id: 11, category: "seramik", src: rangeRoverVelar, alt: "Range Rover Velar Seramik" },
+  { id: 76, category: "seramik", src: porsche911WhiteFront, alt: "Porsche 911 GT3 Beyaz Seramik Kaplama" },
+
   { id: 12, category: "ppf", src: bmwM4RedFront, alt: "BMW M4 Kırmızı PPF" },
   { id: 13, category: "pasta", src: bmwM4RedRear, alt: "BMW M4 Kırmızı Detay" },
   { id: 14, category: "seramik", src: mercedesEqeFront, alt: "Mercedes EQE Seramik Kaplama" },
