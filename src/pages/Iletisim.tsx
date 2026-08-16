@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
-import { MapPin, Phone, Clock, Instagram } from "lucide-react";
-import whatsappLogoAsset from "@/assets/whatsapp-logo.png.asset.json";
+import { MapPin, Phone, Clock, MessageCircle, Instagram } from "lucide-react";
 
 const WHATSAPP_NUMBER = "905469049644";
 const WHATSAPP_MESSAGE = "Merhaba Emre Bey, Bilgi almak ve Randevu oluşturmak istiyorum.";
@@ -122,7 +121,7 @@ const IletisimPage = () => {
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2"
                     >
-                      <img src={whatsappLogoAsset.url} alt="WhatsApp" className="w-5 h-5 object-contain" />
+                      <MessageCircle className="w-5 h-5" />
                       WhatsApp'tan Yaz
                     </a>
                   </Button>

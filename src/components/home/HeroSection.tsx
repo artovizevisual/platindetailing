@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
-import { ChevronDown } from "lucide-react";
+import { MessageCircle, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import whatsappLogoAsset from "@/assets/whatsapp-logo.png.asset.json";
 
 const WHATSAPP_NUMBER = "905469049644";
 const WHATSAPP_MESSAGE = "Merhaba Emre Bey, Bilgi almak ve Randevu oluşturmak istiyorum.";
@@ -99,7 +98,7 @@ export const HeroSection = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
               >
-                <img src={whatsappLogoAsset.url} alt="WhatsApp" className="w-5 h-5 object-contain" />
+                <MessageCircle className="w-5 h-5" />
                 WhatsApp'tan Randevu Al
               </a>
             </Button>

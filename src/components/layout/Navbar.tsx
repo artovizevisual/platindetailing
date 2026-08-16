@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import platinLogo from "@/assets/platin-logo.jpg";
-import whatsappLogoAsset from "@/assets/whatsapp-logo.png.asset.json";
 
 const navLinks = [
   { href: "/", label: "Anasayfa" },
@@ -93,7 +92,7 @@ export const Navbar = () => {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
                 >
-                  <img src={whatsappLogoAsset.url} alt="WhatsApp" className="w-5 h-5 object-contain" />
+                  <MessageCircle className="w-5 h-5" />
                   WhatsApp'tan Randevu
                 </a>
               </Button>
@@ -163,7 +162,7 @@ export const Navbar = () => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
                   >
-                    <img src={whatsappLogoAsset.url} alt="WhatsApp" className="w-5 h-5 object-contain" />
+                    <MessageCircle className="w-5 h-5" />
                     WhatsApp'tan Randevu
                   </a>
                 </Button>
@@ -181,7 +180,7 @@ export const Navbar = () => {
         className="fixed bottom-6 right-6 z-50 lg:hidden bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
         aria-label="WhatsApp"
       >
-        <img src={whatsappLogoAsset.url} alt="WhatsApp" className="w-6 h-6 object-contain" />
+        <MessageCircle className="w-6 h-6" />
       </a>
     </>
   );

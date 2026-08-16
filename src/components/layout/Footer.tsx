@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import { MapPin, Phone, Clock, Instagram } from "lucide-react";
+import { MapPin, Phone, Clock, Instagram, MessageCircle } from "lucide-react";
 import platinLogo from "@/assets/platin-logo.jpg";
-import whatsappLogoAsset from "@/assets/whatsapp-logo.png.asset.json";
 
 const WHATSAPP_NUMBER = "905469049644";
 
@@ -45,7 +44,7 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 className="p-3 rounded-full border border-border hover:border-[#25D366]/50 hover:bg-[#25D366]/5 transition-all duration-300"
               >
-                <img src={whatsappLogoAsset.url} alt="WhatsApp" className="w-5 h-5 object-contain" />
+                <MessageCircle className="w-5 h-5 text-[#25D366]" />
               </a>
             </div>
           </div>
