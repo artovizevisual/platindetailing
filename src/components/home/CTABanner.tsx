@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import whatsappLogoAsset from "@/assets/whatsapp-logo.png.asset.json";
 
 const WHATSAPP_NUMBER = "905469049644";
 const WHATSAPP_MESSAGE = "Merhaba Emre Bey, Bilgi almak ve Randevu oluşturmak istiyorum.";

@@ -3,8 +3,9 @@ import { motion } from "framer-motion";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
-import { Shield, Check, MessageCircle, ArrowRight } from "lucide-react";
+import { Shield, Check, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import whatsappLogoAsset from "@/assets/whatsapp-logo.png.asset.json";
 import {
   Accordion,
   AccordionContent,

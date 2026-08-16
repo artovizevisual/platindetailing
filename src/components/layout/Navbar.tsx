@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, MessageCircle } from "lucide-react";
+import { motion, AnimatePresence } from "frframer-motion";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import platinLogo from "@/assets/platin-logo.jpg";
+import whatsappLogoAsset from "@/assets/whatsapp-logo.png.asset.json";
 
 const navLinks = [
   { href: "/", label: "Anasayfa" },

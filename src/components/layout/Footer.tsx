@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { MapPin, Phone, Clock, Instagram, MessageCircle } from "lucide-react";
+import { MapPin, Phone, Clock, Instagram } from "lucide-react";
 import platinLogo from "@/assets/platin-logo.jpg";
+import whatsappLogoAsset from "@/assets/whatsapp-logo.png.asset.json";
 
 const WHATSAPP_NUMBER = "905469049644";
 
