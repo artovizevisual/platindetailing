@@ -61,7 +61,7 @@ export const CTABanner = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3"
               >
-                <MessageCircle className="w-6 h-6" />
+                <img src={whatsappLogoAsset.url} alt="WhatsApp" className="w-6 h-6 object-contain" />
                 WhatsApp'tan Yaz
               </a>
             </Button>

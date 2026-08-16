@@ -99,7 +99,7 @@ export const HeroSection = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
               >
-                <MessageCircle className="w-5 h-5" />
+                <img src={whatsappLogoAsset.url} alt="WhatsApp" className="w-5 h-5 object-contain" />
                 WhatsApp'tan Randevu Al
               </a>
             </Button>

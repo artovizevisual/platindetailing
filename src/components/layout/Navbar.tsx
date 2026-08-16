@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { motion, AnimatePresence } from "frframer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import platinLogo from "@/assets/platin-logo.jpg";
@@ -93,7 +93,7 @@ export const Navbar = () => {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
                 >
-                  <MessageCircle className="w-5 h-5" />
+                  <img src={whatsappLogoAsset.url} alt="WhatsApp" className="w-5 h-5 object-contain" />
                   WhatsApp'tan Randevu
                 </a>
               </Button>
@@ -163,7 +163,7 @@ export const Navbar = () => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
                   >
-                    <MessageCircle className="w-5 h-5" />
+                    <img src={whatsappLogoAsset.url} alt="WhatsApp" className="w-5 h-5 object-contain" />
                     WhatsApp'tan Randevu
                   </a>
                 </Button>
@@ -181,7 +181,7 @@ export const Navbar = () => {
         className="fixed bottom-6 right-6 z-50 lg:hidden bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
         aria-label="WhatsApp"
       >
-        <MessageCircle className="w-6 h-6" />
+        <img src={whatsappLogoAsset.url} alt="WhatsApp" className="w-6 h-6 object-contain" />
       </a>
     </>
   );

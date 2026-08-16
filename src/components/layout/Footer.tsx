@@ -45,7 +45,7 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 className="p-3 rounded-full border border-border hover:border-[#25D366]/50 hover:bg-[#25D366]/5 transition-all duration-300"
               >
-                <MessageCircle className="w-5 h-5 text-[#25D366]" />
+                <img src={whatsappLogoAsset.url} alt="WhatsApp" className="w-5 h-5 object-contain" />
               </a>
             </div>
           </div>

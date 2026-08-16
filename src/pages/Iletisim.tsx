@@ -122,7 +122,7 @@ const IletisimPage = () => {
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2"
                     >
-                      <MessageCircle className="w-5 h-5" />
+                      <img src={whatsappLogoAsset.url} alt="WhatsApp" className="w-5 h-5 object-contain" />
                       WhatsApp'tan Yaz
                     </a>
                   </Button>
