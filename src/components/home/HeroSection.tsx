@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { MessageCircle, ChevronDown } from "lucide-react";
+import { ChevronDown } from "lucide-react";
+import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -98,7 +99,7 @@ export const HeroSection = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
               >
-                <MessageCircle className="w-5 h-5" />
+                <WhatsAppIcon className="w-5 h-5" />
                 WhatsApp'tan Randevu Al
               </a>
             </Button>
