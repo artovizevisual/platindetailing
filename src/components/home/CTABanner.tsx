@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MessageCircle } from "lucide-react";
+import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 import { Button } from "@/components/ui/button";
 
 const WHATSAPP_NUMBER = "905469049644";
@@ -61,7 +61,7 @@ export const CTABanner = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3"
               >
-                <MessageCircle className="w-6 h-6" />
+                <WhatsAppIcon className="w-6 h-6" />
                 WhatsApp'tan Yaz
               </a>
             </Button>

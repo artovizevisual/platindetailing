@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
-import { Shield, Check, MessageCircle, ArrowRight } from "lucide-react";
+import { WhatsAppIcon } from "@/components/WhatsAppIcon";
+import { Shield, Check, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import {
   Accordion,
@@ -134,7 +135,7 @@ const PPFLandingPage = () => {
                       rel="noopener noreferrer"
                       className="flex items-center gap-2"
                     >
-                      <MessageCircle className="w-5 h-5" />
+                      <WhatsAppIcon className="w-5 h-5" />
                       Ücretsiz Fiyat & Randevu
                     </a>
                   </Button>
@@ -249,7 +250,7 @@ const PPFLandingPage = () => {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
                 >
-                  <MessageCircle className="w-5 h-5" />
+                  <WhatsAppIcon className="w-5 h-5" />
                   WhatsApp'tan Fiyat Al
                 </a>
               </Button>
