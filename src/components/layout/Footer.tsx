@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { MapPin, Phone, Clock, Instagram, MessageCircle } from "lucide-react";
+import { MapPin, Phone, Clock, Instagram } from "lucide-react";
+import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 import platinLogo from "@/assets/platin-logo.jpg";
 
 const WHATSAPP_NUMBER = "905469049644";
@@ -42,9 +43,9 @@ export const Footer = () => {
                 href={`https://wa.me/${WHATSAPP_NUMBER}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full border border-border hover:border-[#25D366]/50 hover:bg-[#25D366]/5 transition-all duration-300"
+                className="p-3 rounded-full bg-[#25D366] hover:bg-[#128C7E] transition-all duration-300 shadow-lg shadow-[#25D366]/20"
               >
-                <MessageCircle className="w-5 h-5 text-[#25D366]" />
+                <WhatsAppIcon className="w-5 h-5" />
               </a>
             </div>
           </div>
