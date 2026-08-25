@@ -191,7 +191,7 @@ const HizmetlerPage = () => {
 
         {/* Services List */}
         <section className="py-16 lg:py-24 bg-background">
-          <div className="container mx-auto px-4 lg:px-8 space-y-16 lg:space-y-24">
+          <div className="container mx-auto px-4 lg:px-8 grid grid-cols-2 md:grid-cols-1 gap-4 md:gap-16 lg:gap-24">
             {services.map((service, index) => (
               <motion.div
                 key={service.id}
@@ -199,78 +199,96 @@ const HizmetlerPage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.1, duration: 0.6 }}
-                className="card-premium rounded-2xl p-8 lg:p-12"
+                className="card-premium rounded-2xl p-4 md:p-8 lg:p-12"
               >
-                <div className="grid lg:grid-cols-2 gap-12">
-                  {/* Left */}
-                  <div>
-                    <div className="flex items-center gap-4 mb-6">
-                      <div className="p-4 rounded-xl border border-border bg-charcoal">
-                        <service.icon className="w-8 h-8 text-platinum" />
-                      </div>
-                      <h2 className="font-display text-2xl lg:text-3xl text-foreground">
-                        {service.title}
-                      </h2>
+                {/* Mobile compact view */}
+                <div className="block md:hidden">
+                  <div className="flex flex-col items-center text-center gap-3">
+                    <div className="p-3 rounded-xl border border-border bg-charcoal">
+                      <service.icon className="w-7 h-7 text-platinum" />
                     </div>
-                    <p className="text-muted-foreground leading-relaxed mb-8">
+                    <h2 className="font-display text-sm text-foreground leading-tight">
+                      {service.title}
+                    </h2>
+                    <p className="text-muted-foreground text-xs leading-relaxed line-clamp-4">
                       {service.description}
                     </p>
-
-                    {/* For Whom */}
-                    <div className="mb-8">
-                      <h3 className="font-display text-lg text-foreground mb-4">
-                        Kimler için?
-                      </h3>
-                      <ul className="grid grid-cols-2 gap-3">
-                        {service.forWhom.map((item) => (
-                          <li key={item} className="flex items-center gap-2 text-muted-foreground text-sm">
-                            <Check className="w-4 h-4 text-platinum flex-shrink-0" />
-                            {item}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-
-                    {/* Benefits */}
-                    <div>
-                      <h3 className="font-display text-lg text-foreground mb-4">
-                        Ne kazandırır?
-                      </h3>
-                      <ul className="grid grid-cols-2 gap-3">
-                        {service.benefits.map((item) => (
-                          <li key={item} className="flex items-center gap-2 text-muted-foreground text-sm">
-                            <Check className="w-4 h-4 text-gold flex-shrink-0" />
-                            {item}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
                   </div>
+                </div>
 
-                  {/* Right - FAQ */}
-                  <div className="lg:border-l lg:border-border lg:pl-12">
-                    <div className="flex items-center gap-2 mb-6">
-                      <HelpCircle className="w-5 h-5 text-platinum" />
-                      <h3 className="font-display text-lg text-foreground">
-                        Sık Sorulan Sorular
-                      </h3>
+                {/* Desktop detailed view */}
+                <div className="hidden md:block">
+                  <div className="grid lg:grid-cols-2 gap-12">
+                    {/* Left */}
+                    <div>
+                      <div className="flex items-center gap-4 mb-6">
+                        <div className="p-4 rounded-xl border border-border bg-charcoal">
+                          <service.icon className="w-8 h-8 text-platinum" />
+                        </div>
+                        <h2 className="font-display text-2xl lg:text-3xl text-foreground">
+                          {service.title}
+                        </h2>
+                      </div>
+                      <p className="text-muted-foreground leading-relaxed mb-8">
+                        {service.description}
+                      </p>
+
+                      {/* For Whom */}
+                      <div className="mb-8">
+                        <h3 className="font-display text-lg text-foreground mb-4">
+                          Kimler için?
+                        </h3>
+                        <ul className="grid grid-cols-2 gap-3">
+                          {service.forWhom.map((item) => (
+                            <li key={item} className="flex items-center gap-2 text-muted-foreground text-sm">
+                              <Check className="w-4 h-4 text-platinum flex-shrink-0" />
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      {/* Benefits */}
+                      <div>
+                        <h3 className="font-display text-lg text-foreground mb-4">
+                          Ne kazandırır?
+                        </h3>
+                        <ul className="grid grid-cols-2 gap-3">
+                          {service.benefits.map((item) => (
+                            <li key={item} className="flex items-center gap-2 text-muted-foreground text-sm">
+                              <Check className="w-4 h-4 text-gold flex-shrink-0" />
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
                     </div>
-                    <Accordion type="single" collapsible className="space-y-4">
-                      {service.faq.map((item, faqIndex) => (
-                        <AccordionItem
-                          key={faqIndex}
-                          value={`${service.id}-${faqIndex}`}
-                          className="border border-border rounded-lg px-4"
-                        >
-                          <AccordionTrigger className="text-foreground text-left hover:no-underline py-4">
-                            {item.q}
-                          </AccordionTrigger>
-                          <AccordionContent className="text-muted-foreground pb-4">
-                            {item.a}
-                          </AccordionContent>
-                        </AccordionItem>
-                      ))}
-                    </Accordion>
+
+                    {/* Right - FAQ */}
+                    <div className="lg:border-l lg:border-border lg:pl-12">
+                      <div className="flex items-center gap-2 mb-6">
+                        <HelpCircle className="w-5 h-5 text-platinum" />
+                        <h3 className="font-display text-lg text-foreground">
+                          Sık Sorulan Sorular
+                        </h3>
+                      </div>
+                      <Accordion type="single" collapsible className="space-y-4">
+                        {service.faq.map((item, faqIndex) => (
+                          <AccordionItem
+                            key={faqIndex}
+                            value={`${service.id}-${faqIndex}`}
+                            className="border border-border rounded-lg px-4"
+                          >
+                            <AccordionTrigger className="text-foreground text-left hover:no-underline py-4">
+                              {item.q}
+                            </AccordionTrigger>
+                            <AccordionContent className="text-muted-foreground pb-4">
+                              {item.a}
+                            </AccordionContent>
+                          </AccordionItem>
+                        ))}
+                      </Accordion>
+                    </div>
                   </div>
                 </div>
               </motion.div>
